@@ -1,0 +1,11 @@
+import React from 'react'
+import './Button.css'
+
+function Button({icon,name,bgColor='#ff3700',color='#ffffff'}) {
+  return (
+    <a href='#' type='button' className='mainBtn' style={{color:color,background:bgColor}}>
+      {icon}  {name}
+        </a>  )
+}
+
+export default Button

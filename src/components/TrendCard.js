@@ -1,0 +1,13 @@
+import React from 'react'
+import './TrendCard.css'
+
+function TrendCard({slide}) {
+  return (
+<div className='trend-card'>
+    <img className='img-fluid' src={slide.previewImg}></img>
+    <a href='#'>Add to calender<ion-icon name="calender-outline"></ion-icon></a>
+</div>
+)
+}
+
+export default TrendCard
